@@ -1,0 +1,66 @@
+[
+    {
+        "id": "M001",
+        "name": "Nguyễn Văn An",
+        "phone": "0901234567",
+        "email": "an.nguyen@example.com",
+        "joinDate": "2025-01-15",
+        "avatar": ""
+    },
+    {
+        "id": "M002",
+        "name": "Trần Thị Bình",
+        "phone": "0912345678",
+        "email": "binh.tran@example.com",
+        "joinDate": "2025-02-20",
+        "avatar": ""
+    },
+    {
+        "id": "M003",
+        "name": "Lê Hoàng Cường",
+        "phone": "0923456789",
+        "email": "cuong.le@example.com",
+        "joinDate": "2025-03-05",
+        "avatar": ""
+    },
+    {
+        "id": "M004",
+        "name": "Phạm Minh Dũng",
+        "phone": "0934567890",
+        "email": "dung.pham@example.com",
+        "joinDate": "2025-03-10",
+        "avatar": ""
+    },
+    {
+        "id": "M005",
+        "name": "Hoàng Thị Em",
+        "phone": "0945678901",
+        "email": "em.hoang@example.com",
+        "joinDate": "2025-03-15",
+        "avatar": ""
+    },
+    {
+        "id": "M006",
+        "name": "Đỗ Văn Phúc",
+        "phone": "0956789012",
+        "email": "phuc.do@example.com",
+        "joinDate": "2025-04-01",
+        "avatar": ""
+    },
+    {
+        "id": "M007",
+        "name": "Vũ Thị Hà",
+        "phone": "0967890123",
+        "email": "ha.vu@example.com",
+        "joinDate": "2025-04-05",
+        "avatar": ""
+    },
+    {
+        "id": "M008",
+        "name": "Ngô Văn Huy",
+        "phone": "0978901234",
+        "email": "huy.ngo@example.com",
+        "joinDate": "2025-04-10",
+        "avatar": ""
+    }
+]

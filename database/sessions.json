@@ -1,0 +1,110 @@
+[
+    {
+        "id": "S001",
+        "date": "2025-05-10",
+        "time": "18:00 - 20:00",
+        "location": "Nhà thi đấu cầu lông Quận 1, 123 Nguyễn Huệ, Q.1",
+        "title": "Buổi tập tuần 1 - Tháng 5",
+        "description": "Buổi tập luyện thường kỳ, các thành viên tập luyện tự do và giao lưu",
+        "maxParticipants": 20,
+        "fee": 50000,
+        "status": "completed",
+        "createdAt": "2025-05-01T08:00:00Z"
+    },
+    {
+        "id": "S002",
+        "date": "2025-05-14",
+        "time": "18:00 - 20:00",
+        "location": "Nhà thi đấu cầu lông Quận 3, 456 Lý Tự Trọng, Q.3",
+        "title": "Giải đấu giao hữu tháng 5",
+        "description": "Thi đấu giao hữu giữa các thành viên, chia đội ngẫu nhiên",
+        "maxParticipants": 16,
+        "fee": 80000,
+        "status": "completed",
+        "createdAt": "2025-05-02T10:00:00Z"
+    },
+    {
+        "id": "S003",
+        "date": "2025-05-17",
+        "time": "17:30 - 19:30",
+        "location": "Nhà thi đấu cầu lông Quận 1, 123 Nguyễn Huệ, Q.1",
+        "title": "Buổi tập tuần 2 - Tháng 5",
+        "description": "Luyện tập kỹ thuật đánh cầu và di chuyển",
+        "maxParticipants": 20,
+        "fee": 50000,
+        "status": "completed",
+        "createdAt": "2025-05-03T09:00:00Z"
+    },
+    {
+        "id": "S004",
+        "date": "2025-05-21",
+        "time": "18:00 - 20:00",
+        "location": "Nhà thi đấu cầu lông Quận 3, 456 Lý Tự Trọng, Q.3",
+        "title": "Buổi tập tuần 3 - Tháng 5",
+        "description": "Luyện tập đánh đôi và chiến thuật thi đấu",
+        "maxParticipants": 20,
+        "fee": 50000,
+        "status": "completed",
+        "createdAt": "2025-05-07T14:00:00Z"
+    },
+    {
+        "id": "S005",
+        "date": "2025-05-24",
+        "time": "07:00 - 10:00",
+        "location": "Nhà thi đấu cầu lông Quận 7, 789 Nguyễn Lương Bằng, Q.7",
+        "title": "Giải đấu nội bộ tháng 5",
+        "description": "Giải đấu nội bộ hàng tháng - các thành viên đăng ký theo cặp",
+        "maxParticipants": 24,
+        "fee": 100000,
+        "status": "completed",
+        "createdAt": "2025-05-08T11:00:00Z"
+    },
+    {
+        "id": "S006",
+        "date": "2025-05-28",
+        "time": "18:00 - 20:00",
+        "location": "Nhà thi đấu cầu lông Quận 1, 123 Nguyễn Huệ, Q.1",
+        "title": "Buổi tập tuần 4 - Tháng 5",
+        "description": "Ôn tập tổng hợp và rèn luyện thể lực",
+        "maxParticipants": 20,
+        "fee": 50000,
+        "status": "completed",
+        "createdAt": "2025-05-10T16:00:00Z"
+    },
+    {
+        "id": "S007",
+        "date": "2026-05-15",
+        "time": "18:00 - 20:00",
+        "location": "Nhà thi đấu cầu lông Quận 1, 123 Nguyễn Huệ, Q.1",
+        "title": "Buổi tập đầu tháng 5",
+        "description": "Buổi tập đầu tiên của tháng 5, chào đón thành viên mới",
+        "maxParticipants": 20,
+        "fee": 50000,
+        "status": "upcoming",
+        "createdAt": "2026-05-01T08:00:00Z"
+    },
+    {
+        "id": "S008",
+        "date": "2026-05-18",
+        "time": "18:00 - 20:00",
+        "location": "Nhà thi đấu cầu lông Quận 3, 456 Lý Tự Trọng, Q.3",
+        "title": "Giải đấu giao hữu giữa tháng",
+        "description": "Thi đấu giao hữu, chia bảng ngẫu nhiên",
+        "maxParticipants": 16,
+        "fee": 80000,
+        "status": "upcoming",
+        "createdAt": "2026-05-02T10:00:00Z"
+    },
+    {
+        "id": "S009",
+        "date": "2026-05-22",
+        "time": "17:30 - 19:30",
+        "location": "Nhà thi đấu cầu lông Quận 7, 789 Nguyễn Lương Bằng, Q.7",
+        "title": "Buổi tập giữa tuần",
+        "description": "Luyện tập kỹ thuật đánh đôi và di chuyển sân",
+        "maxParticipants": 20,
+        "fee": 50000,
+        "status": "upcoming",
+        "createdAt": "2026-05-03T09:00:00Z"
+    }
+]

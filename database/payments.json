@@ -1,0 +1,74 @@
+[
+    {
+        "sessionId": "S007",
+        "memberId": "M001",
+        "paid": true,
+        "paidAt": "2026-05-10T10:00:00Z"
+    },
+    {
+        "sessionId": "S007",
+        "memberId": "M002",
+        "paid": true,
+        "paidAt": "2026-05-10T10:30:00Z"
+    },
+    {
+        "sessionId": "S007",
+        "memberId": "M003",
+        "paid": false,
+        "paidAt": ""
+    },
+    {
+        "sessionId": "S007",
+        "memberId": "M004",
+        "paid": true,
+        "paidAt": "2026-05-11T08:00:00Z"
+    },
+    {
+        "sessionId": "S007",
+        "memberId": "M005",
+        "paid": false,
+        "paidAt": ""
+    },
+    {
+        "sessionId": "S007",
+        "memberId": "M006",
+        "paid": true,
+        "paidAt": "2026-05-11T10:00:00Z"
+    },
+    {
+        "sessionId": "S008",
+        "memberId": "M001",
+        "paid": true,
+        "paidAt": "2026-05-12T10:00:00Z"
+    },
+    {
+        "sessionId": "S008",
+        "memberId": "M003",
+        "paid": false,
+        "paidAt": ""
+    },
+    {
+        "sessionId": "S008",
+        "memberId": "M007",
+        "paid": true,
+        "paidAt": "2026-05-12T12:00:00Z"
+    },
+    {
+        "sessionId": "S009",
+        "memberId": "M002",
+        "paid": false,
+        "paidAt": ""
+    },
+    {
+        "sessionId": "S009",
+        "memberId": "M004",
+        "paid": false,
+        "paidAt": ""
+    },
+    {
+        "sessionId": "S009",
+        "memberId": "M008",
+        "paid": true,
+        "paidAt": "2026-05-13T12:00:00Z"
+    }
+]
