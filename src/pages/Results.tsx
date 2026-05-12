@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Award, Search } from "lucide-react";
-import { getResults, getSessions, getMembers, getSessionWithDetails } from "../utils/db";
+import { getResults, getSessions, getMembers } from "../utils/db";
 import { formatDate } from "../utils/db";
 import type { Result, Session } from "../types";
 
@@ -106,8 +106,8 @@ export function ResultsPage() {
                                     <div className="flex items-center gap-3">
                                         <span
                                             className={`text-2xl font-bold ${result.winner === result.player1
-                                                    ? "text-green-600"
-                                                    : "text-gray-400"
+                                                ? "text-green-600"
+                                                : "text-gray-400"
                                                 }`}
                                         >
                                             {result.score1}
@@ -117,8 +117,8 @@ export function ResultsPage() {
                                         </span>
                                         <span
                                             className={`text-2xl font-bold ${result.winner === result.player2
-                                                    ? "text-green-600"
-                                                    : "text-gray-400"
+                                                ? "text-green-600"
+                                                : "text-gray-400"
                                                 }`}
                                         >
                                             {result.score2}
@@ -145,8 +145,8 @@ export function ResultsPage() {
                                         </span>
                                         <span
                                             className={`text-lg font-bold ${result.winner === "team1"
-                                                    ? "text-green-600"
-                                                    : "text-gray-400"
+                                                ? "text-green-600"
+                                                : "text-gray-400"
                                                 }`}
                                         >
                                             {result.score1}
@@ -164,8 +164,8 @@ export function ResultsPage() {
                                         </span>
                                         <span
                                             className={`text-lg font-bold ${result.winner === "team2"
-                                                    ? "text-green-600"
-                                                    : "text-gray-400"
+                                                ? "text-green-600"
+                                                : "text-gray-400"
                                                 }`}
                                         >
                                             {result.score2}

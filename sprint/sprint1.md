@@ -6,6 +6,48 @@
 
 ---
 
+## 0. Cách chạy ứng dụng
+
+### Yêu cầu
+- Node.js >= 18
+- npm >= 9
+
+### Các bước chạy
+
+```bash
+# 1. Di chuyển vào thư mục dự án
+cd /Users/nhatnt1/Project/TestClaude/badminton-club
+
+# 2. Cài đặt dependencies (chỉ cần làm 1 lần)
+npm install
+
+# 3. Khởi động server development
+npm run dev
+```
+
+### App location (URL)
+
+| Môi trường | URL | Ghi chú |
+|------------|-----|---------|
+| **Local development** | `http://localhost:5173` | Chạy lệnh `npm run dev` |
+| **Network (LAN)** | `http://<IP-máy>:5173` | VD: `http://192.168.1.10:5173` |
+| **Production build** | `npm run build` → `dist/` | Dùng `npx serve dist` hoặc deploy lên Vercel/Netlify |
+
+> **Lưu ý:** Server development cần đang chạy ở terminal. Nếu tắt terminal thì app sẽ không truy cập được. Để dừng server nhấn `Ctrl+C`.
+
+### Các trang trong ứng dụng
+
+| Đường dẫn | Mô tả | Yêu cầu đăng nhập |
+|-----------|-------|-------------------|
+| `http://localhost:5173/` | Trang chủ | ❌ |
+| `http://localhost:5173/lich-dau` | Lịch tập & đấu | ❌ |
+| `http://localhost:5173/ket-qua` | Kết quả trận đấu | ❌ |
+| `http://localhost:5173/thanh-vien` | Danh sách thành viên | ❌ |
+| `http://localhost:5173/admin` | Admin Dashboard | ✅ (admin / admin123) |
+| `http://localhost:5173/admin/login` | Trang đăng nhập Admin | ❌ |
+
+---
+
 ## 1. Kiến trúc tổng quan
 
 ```

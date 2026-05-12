@@ -1,0 +1,58 @@
+[
+    {
+        "id": "R001",
+        "sessionId": "S002",
+        "type": "single",
+        "player1": "M001",
+        "player2": "M003",
+        "score1": 21,
+        "score2": 18,
+        "winner": "M001",
+        "notes": "Trận đấu kịch tính, set 1"
+    },
+    {
+        "id": "R002",
+        "sessionId": "S002",
+        "type": "single",
+        "player1": "M002",
+        "player2": "M004",
+        "score1": 21,
+        "score2": 15,
+        "winner": "M002",
+        "notes": ""
+    },
+    {
+        "id": "R003",
+        "sessionId": "S005",
+        "type": "double",
+        "team1": [
+            "M001",
+            "M004"
+        ],
+        "team2": [
+            "M002",
+            "M003"
+        ],
+        "score1": 21,
+        "score2": 17,
+        "winner": "team1",
+        "notes": "Chung kết đôi nam"
+    },
+    {
+        "id": "R004",
+        "sessionId": "S005",
+        "type": "double",
+        "team1": [
+            "M005",
+            "M006"
+        ],
+        "team2": [
+            "M007",
+            "M008"
+        ],
+        "score1": 18,
+        "score2": 21,
+        "winner": "team2",
+        "notes": "Bán kết đôi nam nữ"
+    }
+]

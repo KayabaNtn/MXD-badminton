@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { CalendarDays, Users, Award, TrendingUp, ArrowRight } from "lucide-react";
 import { getSessions, getMembers, getRegistrations, formatDate, formatCurrency } from "../utils/db";
-import type { Session, Member, Registration } from "../types";
+import type { Session } from "../types";
 
 export function Home() {
     const [upcomingSessions, setUpcomingSessions] = useState<Session[]>([]);
